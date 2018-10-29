@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: E-Retail
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: saurabh.t
+Implementation-Vendor-Id: com.E-retail.api
+Build-Jdk: 1.8.0_141
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/E-Retail
+Created-By: Maven Integration for Eclipse
+
