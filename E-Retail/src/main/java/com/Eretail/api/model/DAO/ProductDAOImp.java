@@ -45,7 +45,8 @@ public class ProductDAOImp implements ProductDAO {
 	public boolean addNewProduct(Products product) {
 		try {
 			System.out.println("In DAO");
-
+			Productlines p = (Productlines)getSession().get(Productlines.class, "Classic_Cars");
+			product.setProductlines(p);
 			getSession().persist(product);
 
 		} catch (Exception e) {

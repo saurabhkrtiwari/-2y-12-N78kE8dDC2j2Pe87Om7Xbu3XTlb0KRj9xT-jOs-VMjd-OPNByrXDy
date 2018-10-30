@@ -39,7 +39,7 @@ public Products getProduct (@PathVariable String id)
 
 @RequestMapping(value="/products",method=RequestMethod.POST)
 @ResponseBody
-public boolean addNewProduct (@RequestBody Products product)
+public boolean addNewProduct (@RequestBody Products product/*,@RequestParam String productLines*/)
 {
 	
 	String  productLine = "Classic Cars";
